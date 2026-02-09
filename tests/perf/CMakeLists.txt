@@ -1,7 +1,6 @@
-cmake_minimum_required(VERSION 3.2)
+cmake_minimum_required(VERSION 3.5)
 
 include(ExternalProject)
-include(CMakeParseArguments)
 set(THREADS_PREFER_PTHREAD_FLAG ON)
 find_package(Threads REQUIRED)
 find_package(PythonInterp 2.7 REQUIRED)
